@@ -24,20 +24,30 @@ limitations under the License.
 
 > Beta distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-beta
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { Beta, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@esm/index.mjs';
+var beta = require( '@stdlib/stats-base-dists-beta' );
 ```
 
 #### beta
@@ -98,7 +108,7 @@ The namespace contains a constructor function for creating a [beta][beta-distrib
 <!-- </toc> -->
 
 ```javascript
-var Beta = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta' ).Beta;
+var Beta = require( '@stdlib/stats-base-dists-beta' ).Beta;
 var dist = new Beta( 2.0, 4.0 );
 
 var mu = dist.mean;
@@ -117,20 +127,11 @@ var mu = dist.mean;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var beta = require( '@stdlib/stats-base-dists-beta' );
 
 console.log( objectKeys( beta ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -154,7 +155,7 @@ console.log( objectKeys( beta ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -184,8 +185,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-beta.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-beta
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-beta/actions/workflows/test.yml/badge.svg?branch=v0.0.7
-[test-url]: https://github.com/stdlib-js/stats-base-dists-beta/actions/workflows/test.yml?query=branch:v0.0.7
+[test-image]: https://github.com/stdlib-js/stats-base-dists-beta/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-base-dists-beta/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-beta/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-beta?branch=main
@@ -218,35 +219,35 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/beta/ctor]: https://github.com/stdlib-js/stats-base-dists-beta-ctor/tree/esm
+[@stdlib/stats/base/dists/beta/ctor]: https://github.com/stdlib-js/stats-base-dists-beta-ctor
 
-[@stdlib/stats/base/dists/beta/entropy]: https://github.com/stdlib-js/stats-base-dists-beta-entropy/tree/esm
+[@stdlib/stats/base/dists/beta/entropy]: https://github.com/stdlib-js/stats-base-dists-beta-entropy
 
-[@stdlib/stats/base/dists/beta/kurtosis]: https://github.com/stdlib-js/stats-base-dists-beta-kurtosis/tree/esm
+[@stdlib/stats/base/dists/beta/kurtosis]: https://github.com/stdlib-js/stats-base-dists-beta-kurtosis
 
-[@stdlib/stats/base/dists/beta/mean]: https://github.com/stdlib-js/stats-base-dists-beta-mean/tree/esm
+[@stdlib/stats/base/dists/beta/mean]: https://github.com/stdlib-js/stats-base-dists-beta-mean
 
-[@stdlib/stats/base/dists/beta/median]: https://github.com/stdlib-js/stats-base-dists-beta-median/tree/esm
+[@stdlib/stats/base/dists/beta/median]: https://github.com/stdlib-js/stats-base-dists-beta-median
 
-[@stdlib/stats/base/dists/beta/mode]: https://github.com/stdlib-js/stats-base-dists-beta-mode/tree/esm
+[@stdlib/stats/base/dists/beta/mode]: https://github.com/stdlib-js/stats-base-dists-beta-mode
 
-[@stdlib/stats/base/dists/beta/skewness]: https://github.com/stdlib-js/stats-base-dists-beta-skewness/tree/esm
+[@stdlib/stats/base/dists/beta/skewness]: https://github.com/stdlib-js/stats-base-dists-beta-skewness
 
-[@stdlib/stats/base/dists/beta/stdev]: https://github.com/stdlib-js/stats-base-dists-beta-stdev/tree/esm
+[@stdlib/stats/base/dists/beta/stdev]: https://github.com/stdlib-js/stats-base-dists-beta-stdev
 
-[@stdlib/stats/base/dists/beta/variance]: https://github.com/stdlib-js/stats-base-dists-beta-variance/tree/esm
+[@stdlib/stats/base/dists/beta/variance]: https://github.com/stdlib-js/stats-base-dists-beta-variance
 
-[@stdlib/stats/base/dists/beta/cdf]: https://github.com/stdlib-js/stats-base-dists-beta-cdf/tree/esm
+[@stdlib/stats/base/dists/beta/cdf]: https://github.com/stdlib-js/stats-base-dists-beta-cdf
 
-[@stdlib/stats/base/dists/beta/logcdf]: https://github.com/stdlib-js/stats-base-dists-beta-logcdf/tree/esm
+[@stdlib/stats/base/dists/beta/logcdf]: https://github.com/stdlib-js/stats-base-dists-beta-logcdf
 
-[@stdlib/stats/base/dists/beta/logpdf]: https://github.com/stdlib-js/stats-base-dists-beta-logpdf/tree/esm
+[@stdlib/stats/base/dists/beta/logpdf]: https://github.com/stdlib-js/stats-base-dists-beta-logpdf
 
-[@stdlib/stats/base/dists/beta/mgf]: https://github.com/stdlib-js/stats-base-dists-beta-mgf/tree/esm
+[@stdlib/stats/base/dists/beta/mgf]: https://github.com/stdlib-js/stats-base-dists-beta-mgf
 
-[@stdlib/stats/base/dists/beta/pdf]: https://github.com/stdlib-js/stats-base-dists-beta-pdf/tree/esm
+[@stdlib/stats/base/dists/beta/pdf]: https://github.com/stdlib-js/stats-base-dists-beta-pdf
 
-[@stdlib/stats/base/dists/beta/quantile]: https://github.com/stdlib-js/stats-base-dists-beta-quantile/tree/esm
+[@stdlib/stats/base/dists/beta/quantile]: https://github.com/stdlib-js/stats-base-dists-beta-quantile
 
 <!-- </toc-links> -->
 
