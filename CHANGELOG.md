@@ -4,23 +4,207 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-09)
+## Unreleased (2024-12-30)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="stats-base-dists-beta-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f468acc`](https://github.com/stdlib-js/stdlib/commit/f468acc638bd724390c759a0b39ad07ce97b3313) - add C implementation for `stats/base/dists/beta/mean` [(#3895)](https://github.com/stdlib-js/stdlib/pull/3895)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3428](https://github.com/stdlib-js/stdlib/issues/3428)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-beta-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b018e09`](https://github.com/stdlib-js/stdlib/commit/b018e09b9cdaf0d9cfb06a815b3c3ea0ee2c0067) - add C implementation for `stats/base/dists/beta/mode` [(#3908)](https://github.com/stdlib-js/stdlib/pull/3908)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3431](https://github.com/stdlib-js/stdlib/issues/3431)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-beta-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9d7f4db`](https://github.com/stdlib-js/stdlib/commit/9d7f4dbd6c71a2a57b2e55a88e5b7ded091cbd67) - add C implementation for `stats/base/dists/beta/skewness` [(#3921)](https://github.com/stdlib-js/stdlib/pull/3921)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3434](https://github.com/stdlib-js/stdlib/issues/3434)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-beta-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`12a3dbf`](https://github.com/stdlib-js/stdlib/commit/12a3dbf094bb89c50ea468b9c75789124940b510) - add C implementation for `@stdlib/stats-base/dists/beta/stdev` [(#3909)](https://github.com/stdlib-js/stdlib/pull/3909)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3435](https://github.com/stdlib-js/stdlib/issues/3435)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-beta-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/beta/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/beta/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bb09b18`](https://github.com/stdlib-js/stdlib/commit/bb09b185f74d2fc05254a2f164119ca05054887f) - add C implementation for `stats/base/dists/beta/variance` [(#3919)](https://github.com/stdlib-js/stdlib/pull/3919)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3436](https://github.com/stdlib-js/stdlib/issues/3436)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 5 issues were closed in this release:
+
+[#3428](https://github.com/stdlib-js/stdlib/issues/3428), [#3431](https://github.com/stdlib-js/stdlib/issues/3431), [#3434](https://github.com/stdlib-js/stdlib/issues/3434), [#3435](https://github.com/stdlib-js/stdlib/issues/3435), [#3436](https://github.com/stdlib-js/stdlib/issues/3436)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Philipp Burckhardt
+-   Vivek Maurya
+-   Vivek maurya
 
 </section>
 
@@ -32,6 +216,17 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`f468acc`](https://github.com/stdlib-js/stdlib/commit/f468acc638bd724390c759a0b39ad07ce97b3313) - **feat:** add C implementation for `stats/base/dists/beta/mean` [(#3895)](https://github.com/stdlib-js/stdlib/pull/3895) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`bb09b18`](https://github.com/stdlib-js/stdlib/commit/bb09b185f74d2fc05254a2f164119ca05054887f) - **feat:** add C implementation for `stats/base/dists/beta/variance` [(#3919)](https://github.com/stdlib-js/stdlib/pull/3919) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`b018e09`](https://github.com/stdlib-js/stdlib/commit/b018e09b9cdaf0d9cfb06a815b3c3ea0ee2c0067) - **feat:** add C implementation for `stats/base/dists/beta/mode` [(#3908)](https://github.com/stdlib-js/stdlib/pull/3908) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`ed99b85`](https://github.com/stdlib-js/stdlib/commit/ed99b8564b5ea451e094ea331eab9df470df96eb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
+-   [`0756fb5`](https://github.com/stdlib-js/stdlib/commit/0756fb583ae0061031335704fdc46805f408f9c9) - **style:** remove empty lines _(by Philipp Burckhardt)_
+-   [`cfc0665`](https://github.com/stdlib-js/stdlib/commit/cfc0665435a1f99158d7fed39b8873dea6aa6209) - **docs:** add missing private tag _(by Philipp Burckhardt)_
+-   [`e450426`](https://github.com/stdlib-js/stdlib/commit/e450426813957ec4de5e31434edb969741db7c94) - **bench:** add missing native suffix _(by Philipp Burckhardt)_
+-   [`9d7f4db`](https://github.com/stdlib-js/stdlib/commit/9d7f4dbd6c71a2a57b2e55a88e5b7ded091cbd67) - **feat:** add C implementation for `stats/base/dists/beta/skewness` [(#3921)](https://github.com/stdlib-js/stdlib/pull/3921) _(by Vivek maurya, Philipp Burckhardt)_
+-   [`12a3dbf`](https://github.com/stdlib-js/stdlib/commit/12a3dbf094bb89c50ea468b9c75789124940b510) - **feat:** add C implementation for `@stdlib/stats-base/dists/beta/stdev` [(#3909)](https://github.com/stdlib-js/stdlib/pull/3909) _(by Vivek maurya, Vivek Maurya)_
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
 
 </details>
