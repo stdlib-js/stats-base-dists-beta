@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@deno/mod.js';
+import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Beta, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@deno/mod.js';
+import { Beta, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@v0.3.1-deno/mod.js';
 ```
 
 #### beta
@@ -130,7 +130,7 @@ var mu = dist.mean;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@deno/mod.js';
+import beta from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-beta@v0.3.1-deno/mod.js';
 
 console.log( objectKeys( beta ) );
 ```
