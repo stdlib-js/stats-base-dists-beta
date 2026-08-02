@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-08-02)
+
+<section class="features">
+
+### Features
+
+-   [`fa5ac3e`](https://github.com/stdlib-js/stdlib/commit/fa5ac3e85a7a4cf1f3ced529eb6285b039718191) - add C implementation for `stats/base/dists/beta/cdf` [(#11450)](https://github.com/stdlib-js/stdlib/pull/11450)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,10 @@
 
 <details>
 
+-   [`4b25135`](https://github.com/stdlib-js/stdlib/commit/4b2513556546cf3dfcc8fb9adb61d5dccaedbcbe) - **chore:** clean-up [(#13626)](https://github.com/stdlib-js/stdlib/pull/13626) _(by Philipp Burckhardt)_
+-   [`fa5ac3e`](https://github.com/stdlib-js/stdlib/commit/fa5ac3e85a7a4cf1f3ced529eb6285b039718191) - **feat:** add C implementation for `stats/base/dists/beta/cdf` [(#11450)](https://github.com/stdlib-js/stdlib/pull/11450) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`b5b7b4c`](https://github.com/stdlib-js/stdlib/commit/b5b7b4cf9937655b9167cb0145394c787f36faeb) - **refactor:** add `isnan` guards [(#13362)](https://github.com/stdlib-js/stdlib/pull/13362) _(by Philipp Burckhardt)_
+-   [`ca49ceb`](https://github.com/stdlib-js/stdlib/commit/ca49ceb1e17979e0ecb77bc50dedd14b7515b46f) - **refactor:** rename internal variable [(#13167)](https://github.com/stdlib-js/stdlib/pull/13167) _(by Philipp Burckhardt)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6a4d961`](https://github.com/stdlib-js/stdlib/commit/6a4d9614841138f791bfad6fc7d694dffff81a6c) - **docs:** propagate recent doc fixes across `stats/base/dists/*` [(#11815)](https://github.com/stdlib-js/stdlib/pull/11815) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
@@ -29,9 +43,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Lokesh Ranjan
+-   Neeraj Pathak
 -   Om Anand
 -   Philipp Burckhardt
 
