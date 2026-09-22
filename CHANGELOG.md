@@ -4,17 +4,30 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-22)
 
 <section class="features">
 
 ### Features
 
+-   [`09fa89a`](https://github.com/stdlib-js/stdlib/commit/09fa89aba3362cc58b07b79233413389737d0565) - add C implementation for `stats/base/dists/beta/logcdf` [(#13649)](https://github.com/stdlib-js/stdlib/pull/13649)
 -   [`fa5ac3e`](https://github.com/stdlib-js/stdlib/commit/fa5ac3e85a7a4cf1f3ced529eb6285b039718191) - add C implementation for `stats/base/dists/beta/cdf` [(#11450)](https://github.com/stdlib-js/stdlib/pull/11450)
 
 </section>
 
 <!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3426](https://github.com/stdlib-js/stdlib/issues/3426)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -22,6 +35,19 @@
 
 <details>
 
+-   [`11a61cd`](https://github.com/stdlib-js/stdlib/commit/11a61cdd51c8fee1af0cf92f65b2bb4ef1b4cce9) - **test:** migrate `stats/base/dists/beta/kurtosis` to ULP-based assertions [(#15180)](https://github.com/stdlib-js/stdlib/pull/15180) _(by Athan Reines)_
+-   [`1c770d4`](https://github.com/stdlib-js/stdlib/commit/1c770d4b73e1ac67c5d85f73ee2b21dbc047c1a5) - **test:** migrate `stats/base/dists/beta/stdev` to ULP-based assertions [(#15091)](https://github.com/stdlib-js/stdlib/pull/15091) _(by Athan Reines)_
+-   [`56850fb`](https://github.com/stdlib-js/stdlib/commit/56850fb23e4b6d856d83222890060fbcbe433c15) - **test:** migrate `stats/base/dists/beta/mode` to ULP-based assertions [(#14988)](https://github.com/stdlib-js/stdlib/pull/14988) _(by Philipp Burckhardt)_
+-   [`e22c23b`](https://github.com/stdlib-js/stdlib/commit/e22c23bcfa67e4c62d6751a26c9945628d6bd22b) - **test:** migrate `stats/base/dists/beta/variance` to ULP-based assertions [(#14837)](https://github.com/stdlib-js/stdlib/pull/14837) _(by Athan Reines)_
+-   [`9669982`](https://github.com/stdlib-js/stdlib/commit/96699823b66ebcf9a766310be96e3e524e8e7773) - **test:** migrate `stats/base/dists/beta/quantile` to ULP-based assertions [(#14710)](https://github.com/stdlib-js/stdlib/pull/14710) _(by Athan Reines)_
+-   [`09fa89a`](https://github.com/stdlib-js/stdlib/commit/09fa89aba3362cc58b07b79233413389737d0565) - **feat:** add C implementation for `stats/base/dists/beta/logcdf` [(#13649)](https://github.com/stdlib-js/stdlib/pull/13649) _(by Ujjwal Verma, Philipp Burckhardt)_
+-   [`f78712c`](https://github.com/stdlib-js/stdlib/commit/f78712caae7da9ab7bc2a8c7221b316307f67e8e) - **test:** migrate `stats/base/dists/beta/skewness` to ULP-based assertions [(#14606)](https://github.com/stdlib-js/stdlib/pull/14606) _(by Athan Reines)_
+-   [`093792b`](https://github.com/stdlib-js/stdlib/commit/093792bdd7eae0bd5243f43e2a4777eb8dade9c8) - **test:** migrate `stats/base/dists/beta/entropy` to ULP-based assertions [(#14558)](https://github.com/stdlib-js/stdlib/pull/14558) _(by Athan Reines)_
+-   [`66cb6cf`](https://github.com/stdlib-js/stdlib/commit/66cb6cfb61b00baaa2645d4941302a1a43aa8282) - **docs:** update Markdown equation elements [(#14459)](https://github.com/stdlib-js/stdlib/pull/14459) _(by stdlib-bot)_
+-   [`0902b03`](https://github.com/stdlib-js/stdlib/commit/0902b03d126d351193fd22733163bf277d4306ee) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`226a7e5`](https://github.com/stdlib-js/stdlib/commit/226a7e5c0ec410f2ac509ffebf39791eaf96114b) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`4df94c4`](https://github.com/stdlib-js/stdlib/commit/4df94c400faa6789db335debdc8aa388f508d843) - **docs:** add missing usage notes sections and MGF link [(#14392)](https://github.com/stdlib-js/stdlib/pull/14392) _(by Philipp Burckhardt)_
+-   [`a9cfa23`](https://github.com/stdlib-js/stdlib/commit/a9cfa239b23fce770c9bb7a6f35ce073fc807020) - **test:** migrate `stats/base/dists/beta/median` to ULP-based assertions [(#14174)](https://github.com/stdlib-js/stdlib/pull/14174) _(by Athan Reines)_
 -   [`4b25135`](https://github.com/stdlib-js/stdlib/commit/4b2513556546cf3dfcc8fb9adb61d5dccaedbcbe) - **chore:** clean-up [(#13626)](https://github.com/stdlib-js/stdlib/pull/13626) _(by Philipp Burckhardt)_
 -   [`fa5ac3e`](https://github.com/stdlib-js/stdlib/commit/fa5ac3e85a7a4cf1f3ced529eb6285b039718191) - **feat:** add C implementation for `stats/base/dists/beta/cdf` [(#11450)](https://github.com/stdlib-js/stdlib/pull/11450) _(by Lokesh Ranjan, Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
 -   [`b5b7b4c`](https://github.com/stdlib-js/stdlib/commit/b5b7b4cf9937655b9167cb0145394c787f36faeb) - **refactor:** add `isnan` guards [(#13362)](https://github.com/stdlib-js/stdlib/pull/13362) _(by Philipp Burckhardt)_
@@ -43,13 +69,14 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Lokesh Ranjan
 -   Neeraj Pathak
 -   Om Anand
 -   Philipp Burckhardt
+-   Ujjwal Verma
 
 </section>
 
