@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-22)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
 ### Features
 
+-   [`141692a`](https://github.com/stdlib-js/stdlib/commit/141692ab9d3a2009e0386684707206b5c7c2e2f2) - add C implementation for `stats/base/dists/beta/median` [(#15387)](https://github.com/stdlib-js/stdlib/pull/15387)
+-   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384)
 -   [`09fa89a`](https://github.com/stdlib-js/stdlib/commit/09fa89aba3362cc58b07b79233413389737d0565) - add C implementation for `stats/base/dists/beta/logcdf` [(#13649)](https://github.com/stdlib-js/stdlib/pull/13649)
 -   [`fa5ac3e`](https://github.com/stdlib-js/stdlib/commit/fa5ac3e85a7a4cf1f3ced529eb6285b039718191) - add C implementation for `stats/base/dists/beta/cdf` [(#11450)](https://github.com/stdlib-js/stdlib/pull/11450)
 
@@ -35,6 +37,14 @@ This release closes the following issue:
 
 <details>
 
+-   [`a2e9b09`](https://github.com/stdlib-js/stdlib/commit/a2e9b09238a649840b82ee49b4503567a4303ceb) - **refactor:** use `constants/float64/nan` in `stats/base/dists/beta/mean` [(#16357)](https://github.com/stdlib-js/stdlib/pull/16357) _(by RONAK CHAKRAWATI)_
+-   [`72cf0ed`](https://github.com/stdlib-js/stdlib/commit/72cf0edb51bfc20fe9b644fb64de03242f01966d) - **docs:** fix incorrect return annotations [(#15830)](https://github.com/stdlib-js/stdlib/pull/15830) _(by anee3)_
+-   [`159f303`](https://github.com/stdlib-js/stdlib/commit/159f303296f4735557102a6e9cf7c16d46b81c2c) - **test:** migrate `stats/base/dists/beta/pdf` to ULP-based assertions [(#15848)](https://github.com/stdlib-js/stdlib/pull/15848) _(by Athan Reines)_
+-   [`2861fe4`](https://github.com/stdlib-js/stdlib/commit/2861fe430548bb441cce624fcfe35a66059c5fba) - **chore:** clean-up [(#16062)](https://github.com/stdlib-js/stdlib/pull/16062) _(by Philipp Burckhardt)_
+-   [`141692a`](https://github.com/stdlib-js/stdlib/commit/141692ab9d3a2009e0386684707206b5c7c2e2f2) - **feat:** add C implementation for `stats/base/dists/beta/median` [(#15387)](https://github.com/stdlib-js/stdlib/pull/15387) _(by Philipp Burckhardt, Karan Anand)_
+-   [`fc129b4`](https://github.com/stdlib-js/stdlib/commit/fc129b4a89ae438c8b6f5b3bef0bcf5708ce8298) - **feat:** add C implementation for `math/base/special/betaincinv` [(#15384)](https://github.com/stdlib-js/stdlib/pull/15384) _(by Philipp Burckhardt, Karan Anand)_
+-   [`e10fdb6`](https://github.com/stdlib-js/stdlib/commit/e10fdb6b0fdd46f591551e020a93abac67f27978) - **test:** migrate `stats/base/dists/beta/logpdf` to ULP-based assertions [(#15656)](https://github.com/stdlib-js/stdlib/pull/15656) _(by Athan Reines)_
+-   [`4166549`](https://github.com/stdlib-js/stdlib/commit/41665490d04c14e0e0f1b8a2a647b8bf4563fdd2) - **test:** migrate `stats/base/dists/beta/mean` to ULP-based assertions [(#15487)](https://github.com/stdlib-js/stdlib/pull/15487) _(by Divyanshu)_
 -   [`11a61cd`](https://github.com/stdlib-js/stdlib/commit/11a61cdd51c8fee1af0cf92f65b2bb4ef1b4cce9) - **test:** migrate `stats/base/dists/beta/kurtosis` to ULP-based assertions [(#15180)](https://github.com/stdlib-js/stdlib/pull/15180) _(by Athan Reines)_
 -   [`1c770d4`](https://github.com/stdlib-js/stdlib/commit/1c770d4b73e1ac67c5d85f73ee2b21dbc047c1a5) - **test:** migrate `stats/base/dists/beta/stdev` to ULP-based assertions [(#15091)](https://github.com/stdlib-js/stdlib/pull/15091) _(by Athan Reines)_
 -   [`56850fb`](https://github.com/stdlib-js/stdlib/commit/56850fb23e4b6d856d83222890060fbcbe433c15) - **test:** migrate `stats/base/dists/beta/mode` to ULP-based assertions [(#14988)](https://github.com/stdlib-js/stdlib/pull/14988) _(by Philipp Burckhardt)_
@@ -69,14 +79,18 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Divyanshu
+-   Karan Anand
 -   Lokesh Ranjan
 -   Neeraj Pathak
 -   Om Anand
 -   Philipp Burckhardt
+-   RONAK CHAKRAWATI
 -   Ujjwal Verma
+-   anee3
 
 </section>
 
